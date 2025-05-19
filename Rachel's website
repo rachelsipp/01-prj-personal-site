@@ -5,8 +5,8 @@
   <title>Rachel's Personal Website</title>
   <!-- Link to the CSS file -->
   <link rel="stylesheet" href="style.css">
-  <!-- Add Google Fonts for a prettier font -->
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
+  <!-- Use a professional and aesthetic Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700|Lato:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Navigation bar at the top right -->
