@@ -20,7 +20,7 @@
   </nav>
   <!-- Header section with your name or site title -->
   <header id="home" style="background-color: #ffd6e0; padding: 40px 20px 30px 20px; text-align: center; background-image: url('https://www.transparenttextures.com/patterns/flowers.png'); border-bottom: 4px solid #b03a5b; box-shadow: 0 2px 8px rgba(176,58,91,0.08);">
-    <h1 style="font-size: 2.7em; font-weight: bold; margin-bottom: 10px; letter-spacing: 2px; text-shadow: 1px 1px 4px #fff8;">
+    <h1 style="font-size: 3.5em; font-weight: bold; margin-bottom: 10px; letter-spacing: 2px; text-shadow: 1px 1px 4px #fff8;">
       Rachel Sipp
     </h1>
     <!-- Subheading below the main heading -->
