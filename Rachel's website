@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rachel's Personal Website</title>
+  <!-- Link to the CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Add Google Fonts for a prettier font -->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation bar at the top right -->
+  <nav style="text-align: right; padding: 18px 30px 0 0;">
+    <!-- Simple navigation links for each section -->
+    <a href="#home" style="margin-left: 18px; text-decoration: none; color: #b03a5b; font-weight: bold;">Home</a>
+    <a href="#skills" style="margin-left: 18px; text-decoration: none; color: #b03a5b; font-weight: bold;">Skills</a>
+    <a href="#about" style="margin-left: 18px; text-decoration: none; color: #b03a5b; font-weight: bold;">About</a>
+    <a href="#projects" style="margin-left: 18px; text-decoration: none; color: #b03a5b; font-weight: bold;">Projects</a>
+    <a href="#contact" style="margin-left: 18px; text-decoration: none; color: #b03a5b; font-weight: bold;">Contact</a>
+  </nav>
+  <!-- Header section with your name or site title -->
+  <header id="home" style="background-color: #ffd6e0; padding: 40px 20px 30px 20px; text-align: center; background-image: url('https://www.transparenttextures.com/patterns/flowers.png'); border-bottom: 4px solid #b03a5b; box-shadow: 0 2px 8px rgba(176,58,91,0.08);">
+    <h1 style="font-size: 2.7em; font-weight: bold; margin-bottom: 10px; letter-spacing: 2px; text-shadow: 1px 1px 4px #fff8;">
+      Rachel Sipp
+    </h1>
+    <!-- Subheading below the main heading -->
+    <h2 style="font-size: 1.3em; font-weight: normal; color: #fff; margin-top: 0; letter-spacing: 1px;">
+      Aspiring Web Developer
+    </h2>
+    <!-- You can change the title above to your name -->
+  </header>
+
+  <main style="min-height: 70vh;">
+    <!-- About Me section -->
+    <section id="about" style="margin: 40px auto 0 auto; max-width: 430px; text-align: center; background: #fff; border-radius: 10px; box-shadow: 0 4px 16px rgba(176,58,91,0.07); padding: 28px 24px;">
+      <h2 style="color: #b03a5b; margin-bottom: 12px; font-size: 2em;">About Me</h2>
+      <p style="margin-bottom: 10px;">
+        <!-- Write a short introduction about yourself here -->
+        Hello! I am learning web development and this is my personal website.
+      </p>
+      <!-- Added a more detailed introduction below -->
+      <p style="font-size: 1.05em; color: #444;">
+        Hi! My name is Rachel Sipp, and I'm a beginner web developer with a curious mind and a willingness to learn. I'm taking this class to build a strong foundation in programming. Looking forward to learning more and having a place to showcase my growing skills!
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" style="margin: 50px auto 0 auto; max-width: 430px; text-align: center; background: #fff; border-radius: 10px; box-shadow: 0 4px 16px rgba(176,58,91,0.07); padding: 28px 24px;">
+      <h2 style="color: #b03a5b; margin-bottom: 12px; font-size: 2em;">Skills</h2>
+      <!-- Display skills in a single horizontal row -->
+      <ul style="padding-left: 0; margin: 0; display: flex; justify-content: center; align-items: flex-end; flex-wrap: nowrap; gap: 30px; list-style: none;">
+        <li style="text-align: center;">
+          <!-- HTML icon above the text -->
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Icon" style="width:32px; height:32px; display:block; margin: 0 auto 6px auto;">
+          HTML
+        </li>
+        <li style="text-align: center;">
+          <!-- CSS icon above the text -->
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Icon" style="width:32px; height:32px; display:block; margin: 0 auto 6px auto;">
+          CSS
+        </li>
+        <li style="text-align: center;">
+          <!-- JavaScript icon above the text -->
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Icon" style="width:32px; height:32px; display:block; margin: 0 auto 6px auto;">
+          JavaScript (beginner)
+        </li>
+        <li style="text-align: center;">
+          <!-- Python icon above the text -->
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Icon" style="width:32px; height:32px; display:block; margin: 0 auto 6px auto;">
+          Python
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" style="margin: 50px auto 0 auto; max-width: 430px; text-align: center; background: #fff; border-radius: 10px; box-shadow: 0 4px 16px rgba(176,58,91,0.07); padding: 28px 24px;">
+      <h2 style="color: #b03a5b; margin-bottom: 12px; font-size: 2em;">Contact</h2>
+      <p style="color: #444;">Contact me here</p>
+      <!-- LinkedIn icon under the contact info -->
+      <a href="https://www.linkedin.com/" target="_blank" style="display: inline-block; margin-top: 12px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn Icon" style="width:36px; height:36px;">
+      </a>
+    </section>
+  </main>
+
+  <!-- Simple footer for a finished look -->
+  <footer style="text-align: center; padding: 18px 0 12px 0; color: #b03a5b; font-size: 1em; background: none;">
+    <!-- You can add your email or a copyright -->
+    &copy; 2024 Rachel Sipp
+  </footer>
+</body>
+</html>

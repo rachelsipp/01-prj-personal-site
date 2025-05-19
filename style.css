@@ -1,1 +1,61 @@
-/* Add you CSS here */
+/* Style for the whole page */
+body {
+  font-family: 'Quicksand', 'Segoe UI', Arial, sans-serif; /* Use a prettier font */
+  background-color: #ffe4ea; /* Light pink background color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  /* Add a subtle background pattern for more aesthetics */
+  background-image: url('https://www.transparenttextures.com/patterns/diamond-upholstery.png');
+}
+
+/* Remove default list styles for a cleaner look */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the header section */
+header {
+  background-color: #4a90e2; /* Blue background */
+  color: white; /* White text */
+  padding: 20px; /* Space inside the header */
+  text-align: center; /* Center the text */
+}
+
+/* Style for the main content area */
+main {
+  padding: 0; /* Padding is handled in sections */
+}
+
+/* Style for the About Me section */
+#about {
+  background-color: #ffffff; /* White background */
+  padding: 15px; /* Space inside the section */
+  margin-bottom: 20px; /* Space below the section */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Small shadow */
+}
+
+/* Style for the Skills section */
+#skills {
+  background-color: #ffffff; /* White background */
+  padding: 15px; /* Space inside the section */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* Small shadow */
+}
+
+/* Style for the skills list */
+#skills ul {
+  list-style-type: disc; /* Bullet points */
+  padding-left: 20px; /* Indent the list */
+}
+
+/* Add some space below section titles */
+section h2 {
+  margin-top: 0;
+}
+
+/* Footer style */
+footer {
+  /* Most styles are now inline for simplicity */
+}
