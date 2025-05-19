@@ -22,6 +22,11 @@ header {
   text-align: center; /* Center the text */
 }
 
+/* Make the Aspiring Web Developer subheading smaller */
+header h2 {
+  font-size: 1em; /* Smaller font size for subheading */
+}
+
 /* Style for the main content area */
 main {
   padding: 0; /* Padding is handled in sections */
